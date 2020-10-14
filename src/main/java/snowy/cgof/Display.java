@@ -6,7 +6,7 @@ public interface Display {
      * @return The width of the display
      */
     public int getWidth();
-
+    
     /**
      * @return The height of the display
      */
