@@ -56,9 +56,10 @@ public class GameOfLife {
     private short getSurrounding(int cooX, int cooY) {
         short aliveCells = 0;
 
-        for (int x = -1; x < 1; x++) {
-            for (int y = -1; y < 1; y++) {
-                if (cooX + x < 0 || cooY + y < 0) {
+        for (int x = -1; x <= 1; x++) {
+            for (int y = -1; y <= 1; y++) {
+                if (cooX + x < 0 || cooY + y < 0 || cooX + x >= display.getWidth() || cooY + y >= display.getHeight()
+                        || x == 0 && y == 0) {
                     continue;
                 }
 
