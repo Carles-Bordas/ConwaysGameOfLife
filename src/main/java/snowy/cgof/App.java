@@ -1,17 +1,15 @@
 package snowy.cgof;
 
-/**
- * Hello world!
- */
 public final class App {
-    private App() {
-    }
-
     /**
-     * Says hello to the world.
+     * Launches the game of life with the given parameters
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        // Specify input arguments (Width and Height)
+
+        // Set up simulation
+
     }
 }
